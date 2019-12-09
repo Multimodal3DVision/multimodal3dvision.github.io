@@ -1,7 +1,7 @@
 
 # Uncertainty Aware Methods for Camera Pose Estimation and Relocalization
 
-[Mai Bui](http://campar.in.tum.de/Main/MaiBui),  [Tolga Birdal](http://tbirdal.me/),  [Shadi ](http://campar.in.tum.de/Main/ShadiAlbarqouni) & [Leonidas Guibas](https://profiles.stanford.edu/leonidas-guibas)
+[Mai Bui](http://campar.in.tum.de/Main/MaiBui),  [Tolga Birdal](http://tbirdal.me/),  [Shadi Albarqouni](http://campar.in.tum.de/Main/ShadiAlbarqouni) & [Leonidas Guibas](https://profiles.stanford.edu/leonidas-guibas)
 
 [Stanford University](http://www.stanford.edu) & [Technical University of Munich](http://www.tum.de)
 

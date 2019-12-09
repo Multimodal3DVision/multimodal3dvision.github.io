@@ -18,3 +18,9 @@ We are planning to make our implementation publicly available on this page.
 
 ## Video
 To appear...
+
+## Funding 
+This joint effort is supported by [BaCaTec](http://www.bacatec.de/en/index.html), the Bavaria California Technology Center. 
+
+## Interested in Collaborating with Us?
+We would like this project to evolve towards a repository of methods for handling challenging multimodal problems of 3D computer vision. Therefore, we look for contributors and collaborators with great coding and mathematics skills as well as good knowledge in 3D vision, machine (deep) learning.

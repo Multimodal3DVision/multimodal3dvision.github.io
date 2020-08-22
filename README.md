@@ -1,23 +1,48 @@
 
-# Uncertainty Aware Methods for Camera Pose Estimation and Relocalization
+# 6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference
 
-[Mai Bui](http://campar.in.tum.de/Main/MaiBui),  [Tolga Birdal](http://tbirdal.me/),  [Shadi Albarqouni](http://campar.in.tum.de/Main/ShadiAlbarqouni), [Leonidas Guibas](https://profiles.stanford.edu/leonidas-guibas) & [Nassir Navab](http://campar.in.tum.de/WebHome)
+[Mai Bui](http://campar.in.tum.de/Main/MaiBui), [Tolga Birdal](http://tbirdal.me/), [Haowen Deng](http://campar.in.tum.de/Main/HaowenDeng),  [Shadi Albarqouni](http://campar.in.tum.de/Main/ShadiAlbarqouni), [Leonidas Guibas](https://profiles.stanford.edu/leonidas-guibas) , [Slobodan Ilic](http://campar.in.tum.de/Main/SlobodanIlic) & [Nassir Navab](http://campar.in.tum.de/WebHome)
 
-[Stanford University](http://www.stanford.edu) & [Technical University of Munich](http://www.tum.de)
+[Stanford University](http://www.stanford.edu) & [Technical University of Munich](http://www.tum.de) & Siemens AG
 
-![Multimodal 6D Camera Pose Predictions](docs/teaser.jpg) 
+![Multimodal 6D Camera Pose Predictions](docs/framework.png)
+In a highly ambiguous environment, similar looking views can easily confuse current camera pose regression models and lead to incorrect localization
+results. Instead, given a query RGB image, our aim is to predict the possible modes as well as the associated uncertainties, which we model by the parameters
+of Bingham and Gaussian mixture models.
 
 ## Abstract
-Camera pose estimation is the term for determining the 6-DoF rotation and translation parameters of a camera. It is now a key technology in enabling multitudes of applications such as augmented reality, autonomous driving, human computer interaction and robot guidance. For decades, vision scholars have worked on finding the unique solution of this problem. Yet, this trend is witnessing a fundamental change. The recent school of thought has begun to admit that for our highly complex and ambiguous real environments, obtaining a single solution is not sufficient. This has led to a paradigm shift towards estimating rather a range of solutions in the form of full probability or at least explaining the uncertainty of camera pose estimates. Thanks to the advances in Artificial Intelligence, this important problem can now be tackled via machine learning algorithms that can discover rich and powerful representations for the data at hand. In collaboration, TU Munich and Stanford University plan to devise and implement generative methods that can explain uncertainty and ambiguity in pose predictions. In particular, our aim is to bridge the gap between 6DoF pose estimation either from 2D images/3D point sets and uncertainty quantification through multimodal variational deep methods.
+We present a multimodal camera relocalization framework that captures ambiguities and uncertainties with continuous mixture models defined on the manifold of camera poses. In highly ambiguous environments, which can easily arise due to symmetries and repetitive structures in the scene, computing one plausible solution (what most state-of-the-art methods currently regress) may not be sufficient. Instead we predict multiple camera pose hypotheses as well as the respective uncertainty for each prediction. Towards this aim, we use Bingham distributions, to model the orientation of the camera pose, and a multivariate Gaussian to model the position, with an end-to-end deep neural network. By incorporating a Winner-Takes-All training scheme, we finally obtain a mixture model that is well suited for explaining ambiguities in the scene, yet does not suffer from mode collapse, a common problem with mixture density networks. We introduce a new dataset specifically designed to foster camera localization research in ambiguous environments and exhaustively evaluate our method on synthetic as well as real data on both ambiguous scenes and on non-ambiguous benchmark datasets.
+
+## Results
+We created a synthetic dataset, that is specifically designed to contain repetitive structures and introduce highly ambiguous viewpoints. 
+![Qualitative results on synthetic scenes](docs/synthetic_scenes.png)
+
+In addition, we create highly ambiguous real scenes using Google Tango and a graph-based SLAM approach. We acquire RGB images as well as distinct ground truth camera trajectories for training and testing. 
+![Qualitative results on real scenes](docs/real_scenes.png)
+In comparison to current state-of-the-art methods, the proposed model is able to capture plausible, but diverse modes as well as associated uncertainties for each pose hypothesis. 
+
 
 ## Downloads
-Links for downloading our paper, slides and datasets will soon be available here.
+More information and details can be found in our [paper](https://arxiv.org/abs/2004.04807 "Paper").
+
+The link for downloading our ambiguous relocalization dataset will soon be available here.
 
 ## Sources
 We are planning to make our implementation publicly available on this page.
 
 ## Video
-To appear...
+<a href="https://www.youtube.com/watch?v=SCKwR1uvNmM&feature=youtu.be" target="_blank"><img src="http://img.youtube.com/vi/SCKwR1uvNmM/0.jpg" 
+alt="Video - 6D Continuous Multimodal Inference" width="560" height="auto" border="10" /></a>
+
+## Citation
+```
+@inproceedings{bui2020eccv,
+  title={6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference},
+  author={Bui, Mai and Birdal, Tolga and Deng, Haowen and Albarqouni, Shadi and Guibas, Leonidas and Ilic, Slobodan and Navab, Nassir},
+  journal={European Conference on Computer Vision (ECCV)},
+  year={2020}
+}
+```
 
 ## Funding 
 This joint effort is supported by [BaCaTec](http://www.bacatec.de/en/index.html), the Bavaria California Technology Center. 

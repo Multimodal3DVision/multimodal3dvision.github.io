@@ -31,7 +31,7 @@ The link for downloading our ambiguous relocalization dataset will soon be avail
 We are planning to make our implementation publicly available on this page.
 
 ## Video
-<a href="https://www.youtube.com/watch?v=SCKwR1uvNmM&feature=youtu.be" target="_blank"><img src="http://img.youtube.com/vi/SCKwR1uvNmM/0.jpg" 
+<a href="https://www.youtube.com/watch?v=SCKwR1uvNmM&feature=youtu.be" target="_blank"><img src="docs/video.png" 
 alt="Video - 6D Continuous Multimodal Inference" width="560" height="auto" border="10" /></a>
 
 ## Citation

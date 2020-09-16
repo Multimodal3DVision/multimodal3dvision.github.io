@@ -25,10 +25,10 @@ In comparison to current state-of-the-art methods, the proposed model is able to
 ## Downloads
 More information and details can be found in our [paper](https://arxiv.org/abs/2004.04807 "Paper").
 
-The link for downloading our ambiguous relocalization dataset will soon be available here.
+The link for downloading our ambiguous relocalization dataset is available [here](http://campar.in.tum.de/files/AmbiguousRelocDataset/Ambiguous_ReLoc_Dataset.zip).
 
 ## Sources
-We are planning to make our implementation publicly available on this page.
+The implementation of our work can be found [here](https://github.com/Multimodal3DVision/torch_bingham).
 
 ## Video
 <a href="https://www.youtube.com/watch?v=SCKwR1uvNmM&feature=youtu.be" target="_blank"><img src="docs/video.png" 

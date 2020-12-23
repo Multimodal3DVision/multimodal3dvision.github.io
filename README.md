@@ -23,6 +23,13 @@ In comparison to current state-of-the-art methods, the proposed model is able to
 
 
 ## Downloads
+### ECCV'20 Paper
+<p align="center">
+  <a href="https://arxiv.org/abs/2004.04807">
+  <img width="850" src="docs/DBN_thumb2.jpg">
+ </a>
+</p>
+
 More information and details can be found in our [paper](https://arxiv.org/abs/2004.04807 "Paper").
 
 The link for downloading our ambiguous relocalization dataset is available [here](http://campar.in.tum.de/files/AmbiguousRelocDataset/Ambiguous_ReLoc_Dataset.zip).
@@ -31,9 +38,9 @@ The link for downloading our ambiguous relocalization dataset is available [here
 The implementation of our work can be found [here](https://github.com/Multimodal3DVision/torch_bingham).
 
 ## Video
-<a href="https://www.youtube.com/watch?v=SCKwR1uvNmM&feature=youtu.be" target="_blank"><img src="docs/video.png" 
-alt="Video - 6D Continuous Multimodal Inference" width="560" height="auto" border="10" /></a>
- <iframe width="850" height="478" src="https://youtu.be/SCKwR1uvNmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!--<a href="https://www.youtube.com/watch?v=SCKwR1uvNmM&feature=youtu.be" target="_blank"><img src="docs/video.png" 
+alt="Video - 6D Continuous Multimodal Inference" width="560" height="auto" border="10" /></a>-->
+ <iframe width="850" height="478" src="https://www.youtube.com/embed/SCKwR1uvNmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Citation
 ```
@@ -42,6 +49,15 @@ alt="Video - 6D Continuous Multimodal Inference" width="560" height="auto" borde
   author={Bui, Mai and Birdal, Tolga and Deng, Haowen and Albarqouni, Shadi and Guibas, Leonidas and Ilic, Slobodan and Navab, Nassir},
   journal={European Conference on Computer Vision (ECCV)},
   year={2020}
+}
+
+@misc{deng2020deep,
+      title={Deep Bingham Networks: Dealing with Uncertainty and Ambiguity in Pose Estimation}, 
+      author={Haowen Deng and Mai Bui and Nassir Navab and Leonidas Guibas and Slobodan Ilic and Tolga Birdal},
+      year={2020},
+      eprint={2012.11002},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 

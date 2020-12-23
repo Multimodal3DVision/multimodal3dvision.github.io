@@ -25,9 +25,40 @@ In comparison to current state-of-the-art methods, the proposed model is able to
 ## Downloads
 ### ECCV'20 Paper
 <p align="center">
-  <a href="https://arxiv.org/abs/2004.04807">
+  <div class="special-class" markdown="1">
+    <li class="grid">
+<a href="https://arxiv.org/abs/2004.04807">
   <img width="850" src="docs/DBN_thumb2.jpg">
  </a>
+      </li>
+</div>
+    <div class="special-class" markdown="1">
+    <li class="grid">
+<a href="https://arxiv.org/abs/2004.04807">
+  <img width="850" src="docs/DBN_thumb2.jpg">
+ </a>
+      </li>
+</div>
+  
+  <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <ul class="nav nav-pills nav-justified">
+                        <li>
+                            <a href="https://arxiv.org/abs/2006.10739">
+                            <image src="img/ff_paper_image.png" height="60px">
+                                <h4><strong>Paper</strong></h4>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/tancik/fourier-feature-networks">
+                            <image src="img/github.png" height="60px">
+                                <h4><strong>Code</strong></h4>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        
 </p>
 
 More information and details can be found in our [paper](https://arxiv.org/abs/2004.04807 "Paper").

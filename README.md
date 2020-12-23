@@ -1,7 +1,17 @@
 
-# 6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference
+# Multimodal Inference for 6D Camera Relocalization and Object Pose Estimation
 
-[Mai Bui](http://campar.in.tum.de/Main/MaiBui), [Tolga Birdal](http://tbirdal.me/), [Haowen Deng](http://campar.in.tum.de/Main/HaowenDeng),  [Shadi Albarqouni](http://campar.in.tum.de/Main/ShadiAlbarqouni), [Leonidas Guibas](https://profiles.stanford.edu/leonidas-guibas) , [Slobodan Ilic](http://campar.in.tum.de/Main/SlobodanIlic) & [Nassir Navab](http://campar.in.tum.de/WebHome)
+<div class="special-class" id="section" style="height: 160px">
+                    <div class="match-author"><a href="http://campar.in.tum.de/Main/MaiBui/"><img src="imgs/mai-bui.jpg"><br><p>Mai Bui</p></a></div>
+                    <div class="match-author"><a href="http://tbirdal.me/"><img src="imgs/tolga-birdal.jpg"><br><p>Tolga Birdal</p></a></div>
+                    <div class="match-author"><a href="http://campar.in.tum.de/Main/HaowenDeng"><img src="imgs/haowen-deng.jpg"><br><p>Haowen Deng</p></a></div>
+                    <div class="match-author"><a href="http://campar.in.tum.de/Main/ShadiAlbarqouni"><img src="imgs/shadi-albarqouni.jpg"><br><p>Shadi Albarqouni</p></a></div>
+                    <div class="match-author"><a href="https://profiles.stanford.edu/leonidas-guibas"><img src="imgs/leonidas-guibas.jpg"><br><p>Leonidas Guibas</p></a></div>
+                    <div class="match-author"><a href="http://campar.in.tum.de/Main/SlobodanIlic"><img src="imgs/slobodan-ilic.jpg"><br><p>Slobodan Ilic</p></a></div>
+                    <div class="match-author"><a href="http://campar.in.tum.de/WebHome"><img src="imgs/nassir-navab.jpg"><br><p>Nassir Navab</p></a></div>
+</div>
+
+<!--[Mai Bui](http://campar.in.tum.de/Main/MaiBui), [Tolga Birdal](http://tbirdal.me/), [Haowen Deng](http://campar.in.tum.de/Main/HaowenDeng),  [Shadi Albarqouni](http://campar.in.tum.de/Main/ShadiAlbarqouni), [Leonidas Guibas](https://profiles.stanford.edu/leonidas-guibas) , [Slobodan Ilic](http://campar.in.tum.de/Main/SlobodanIlic) & [Nassir Navab](http://campar.in.tum.de/WebHome)-->
 
 [Stanford University](http://www.stanford.edu) & [Technical University of Munich](http://www.tum.de) & Siemens AG
 

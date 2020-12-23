@@ -84,20 +84,26 @@
         </div>
     </div>
     
+    <h2>Overview (ECCV'20 Presentation on Relocalization)</h2>
     <p> 
     <div class="container">
     <p><iframe width="850" height="478" src="https://www.youtube.com/embed/SCKwR1uvNmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p><br>
     </div>
     </p>
     
-    <h2>Dataset</h2>
-    <p>We created a synthetic dataset, that is specifically designed to contain repetitive structures and introduce highly ambiguous viewpoints:<br>
+    <h2>Dataset and Results onn 6D Camera Relocalization</h2>
+    <p>We created a synthetic dataset, that is specifically designed to contain <strong>repetitive structures</strong> and introduce highly <strong>ambiguous viewpoints</strong>:<br>
     <img src="docs/synthetic_scenes.png"></p>
 
-    <p><br>In addition, we create highly ambiguous real scenes using <strong>Google Tango and a graph-based SLAM approach</strong>. We <strong>provide RGB images as well as distinct ground truth camera trajectories</strong> for training and testing. 3D reconstructions are also provided for visualization purposes.<br>
+<p><br>In addition, <strong>we captured highly ambiguous real scenes</strong> using <strong>Google Tango and a graph-based SLAM approach</strong>. We <strong>provide RGB images as well as distinct ground truth camera trajectories</strong> for training and testing. 3D reconstructions are also provided for visualization purposes. In comparison to current state-of-the-art methods, our model is able to capture plausible, but diverse modes as well as associated uncertainties for each pose hypothesis, as shown below:<br>
     <img src="docs/real_scenes.png"><br></p>
    
-    <br>In comparison to current state-of-the-art methods, our model is able to capture plausible, but diverse modes as well as associated uncertainties for each pose hypothesis. 
+    <br>Please use the link on top of the page to download this dataset.
+
+    <h2>Results on 3D Object Pose Estimation</h2>
+    Multi-hypotheses Bingham layers are also applicable to pose estimation of symmetric/occluded/partially viewed objects. As shown below, we are able to capture all the plausible pose configurations, without explicitly supervising for object symmetries:
+    <img src="docs/3d_objects.png"><br>
+
 
 <h2>Citation</h2>
     <blockquote>
@@ -120,10 +126,10 @@
 </blockquote>
 
 <h2>Funding</h2>
-    This joint effort is supported by <a href="http://www.bacatec.de/en/index.html">BaCaTec, the Bavaria California Technology Center</a>. 
+    This joint effort is supported by <a href="http://www.bacatec.de/en/index.html">BaCaTec, the Bavaria California Technology Center</a>, Stanford-Ford Alliance, NSF grant IIS-1763268, Vannevar Bush Faculty Fellowship, Samsung GRO program, the Stanford SAIL Toyota Research, and the PRIME programme of the German Academic Exchange Service (DAAD) with funds from the German Federal Ministry of Education and Research (BMBF).
 
 <h2>Interested in Collaborating with Us?</h2>
-    We would like this project to evolve towards a repository of methods for handling challenging multimodal problems of 3D computer vision. Therefore, we look for contributors and collaborators with great coding and mathematics skills as well as good knowledge in 3D vision, machine (deep) learning.
+    We would like this project to evolve towards a repository of methods for handling challenging multimodal problems of 3D computer vision. Therefore, we look for contributors and collaborators with great coding and mathematical skills as well as good knowledge in 3D vision, machine (deep) learning. If you are interested please send an e-mail to <strong>Tolga Birdal</strong>.
 
     
 </article>

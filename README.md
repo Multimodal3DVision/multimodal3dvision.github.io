@@ -33,6 +33,7 @@ The implementation of our work can be found [here](https://github.com/Multimodal
 ## Video
 <a href="https://www.youtube.com/watch?v=SCKwR1uvNmM&feature=youtu.be" target="_blank"><img src="docs/video.png" 
 alt="Video - 6D Continuous Multimodal Inference" width="560" height="auto" border="10" /></a>
+ <iframe width="850" height="478" src="https://youtu.be/SCKwR1uvNmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Citation
 ```

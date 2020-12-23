@@ -1,22 +1,8 @@
-
-<link href="style.css" rel="stylesheet">
-
 # Multimodal Inference for 6D Camera Relocalization and Object Pose Estimation
 
-<div id="match-wrapper"markdown="1">
-<div  id="section" style="height: 160px" markdown="1">
-                    <div class="match-author"><a href="http://campar.in.tum.de/Main/MaiBui/"><img src="imgs/mai-bui.jpg"><br><p>Mai Bui</p></a></div>
-                    <div class="match-author"><a href="http://tbirdal.me/"><img src="imgs/tolga-birdal.jpg"><br><p>Tolga Birdal</p></a></div>
-                    <div class="match-author"><a href="http://campar.in.tum.de/Main/HaowenDeng"><img src="imgs/haowen-deng.jpg"><br><p>Haowen Deng</p></a></div>
-                    <div class="match-author"><a href="http://campar.in.tum.de/Main/ShadiAlbarqouni"><img src="imgs/shadi-albarqouni.jpg"><br><p>Shadi Albarqouni</p></a></div>
-                    <div class="match-author"><a href="https://profiles.stanford.edu/leonidas-guibas"><img src="imgs/leonidas-guibas.jpg"><br><p>Leonidas Guibas</p></a></div>
-                    <div class="match-author"><a href="http://campar.in.tum.de/Main/SlobodanIlic"><img src="imgs/slobodan-ilic.jpg"><br><p>Slobodan Ilic</p></a></div>
-                    <div class="match-author"><a href="http://campar.in.tum.de/WebHome"><img src="imgs/nassir-navab.jpg"><br><p>Nassir Navab</p></a></div>
-</div></div>
+[Mai Bui](http://campar.in.tum.de/Main/MaiBui), [Tolga Birdal](http://tbirdal.me/), [Haowen Deng](http://campar.in.tum.de/Main/HaowenDeng),  [Shadi Albarqouni](http://campar.in.tum.de/Main/ShadiAlbarqouni), [Leonidas Guibas](https://profiles.stanford.edu/leonidas-guibas) , [Slobodan Ilic](http://campar.in.tum.de/Main/SlobodanIlic) & [Nassir Navab](http://campar.in.tum.de/WebHome)
 
-<!--[Mai Bui](http://campar.in.tum.de/Main/MaiBui), [Tolga Birdal](http://tbirdal.me/), [Haowen Deng](http://campar.in.tum.de/Main/HaowenDeng),  [Shadi Albarqouni](http://campar.in.tum.de/Main/ShadiAlbarqouni), [Leonidas Guibas](https://profiles.stanford.edu/leonidas-guibas) , [Slobodan Ilic](http://campar.in.tum.de/Main/SlobodanIlic) & [Nassir Navab](http://campar.in.tum.de/WebHome)-->
-
-<!--[Stanford University](http://www.stanford.edu) & [Technical University of Munich](http://www.tum.de) & Siemens AG-->
+[Stanford University](http://www.stanford.edu) & [Technical University of Munich](http://www.tum.de) & Siemens AG
 
 ![Multimodal 6D Camera Pose Predictions](docs/framework.png)
 In a highly ambiguous environment, similar looking views can easily confuse current camera pose regression models and lead to incorrect localization
@@ -35,51 +21,33 @@ In addition, we create highly ambiguous real scenes using Google Tango and a gra
 In comparison to current state-of-the-art methods, the proposed model is able to capture plausible, but diverse modes as well as associated uncertainties for each pose hypothesis. 
 
 
-## Downloads
-### ECCV'20 Paper
+## Resources
+### Publications
 <p align="center">
   <div class="special-class" markdown="1">
-    <li class="grid">
-<a href="https://arxiv.org/abs/2004.04807">
-  <img width="850" src="docs/DBN_thumb2.jpg">
+<p><a href="https://arxiv.org/abs/2004.04807">
+  <img width="160" src="docs/ECCV20_thumb2.jpg">
  </a>
-      </li>
-</div>
-    <div class="special-class" markdown="1">
-    <li class="grid">
-<a href="https://arxiv.org/abs/2004.04807">
-  <img width="850" src="docs/DBN_thumb2.jpg">
+<a href="https://arxiv.org/abs/2012.11002">
+  <img width="160" src="docs/DBN_thumb2.jpg">
+ </a>&nbsp;&nbsp;
+    <a href="https://github.com/Multimodal3DVision/torch_bingham">
+  <img width="100" src="docs/github.jpg">
+ </a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="http://campar.in.tum.de/files/AmbiguousRelocDataset/Ambiguous_ReLoc_Dataset.zip">
+  <img width="100" src="docs/data.jpg">
  </a>
-      </li>
+    </p>
 </div>
   
-  <div class="row">
-                <div class="col-md-4 col-md-offset-4 text-center">
-                    <ul class="nav nav-pills nav-justified">
-                        <li>
-                            <a href="https://arxiv.org/abs/2006.10739">
-                            <image src="img/ff_paper_image.png" height="60px">
-                                <h4><strong>Paper</strong></h4>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/tancik/fourier-feature-networks">
-                            <image src="img/github.png" height="60px">
-                                <h4><strong>Code</strong></h4>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-        </div>
-        
 </p>
 
-More information and details can be found in our [paper](https://arxiv.org/abs/2004.04807 "Paper").
+<!--More information and details can be found in our [paper](https://arxiv.org/abs/2004.04807 "Paper").-->
 
-The link for downloading our ambiguous relocalization dataset is available [here](http://campar.in.tum.de/files/AmbiguousRelocDataset/Ambiguous_ReLoc_Dataset.zip).
+<!--The link for downloading our ambiguous relocalization dataset is available [here](http://campar.in.tum.de/files/AmbiguousRelocDataset/Ambiguous_ReLoc_Dataset.zip).
 
-## Sources
-The implementation of our work can be found [here](https://github.com/Multimodal3DVision/torch_bingham).
+<!--### Source Code
+<!--The implementation of our work can be found [here](https://github.com/Multimodal3DVision/torch_bingham).
 
 ## Video
 <!--<a href="https://www.youtube.com/watch?v=SCKwR1uvNmM&feature=youtu.be" target="_blank"><img src="docs/video.png" 

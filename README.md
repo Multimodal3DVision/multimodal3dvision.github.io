@@ -34,7 +34,7 @@ In comparison to current state-of-the-art methods, the proposed model is able to
     <a href="https://github.com/Multimodal3DVision/torch_bingham">
   <img width="100" src="docs/github.jpg">
  </a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="http://campar.in.tum.de/files/AmbiguousRelocDataset/Ambiguous_ReLoc_Dataset.zip">
+    <a href="https://github.com/Multimodal3DVision/torch_bingham/blob/master/README.md#dataset">
   <img width="100" src="docs/data.jpg">
  </a>
     </p>
